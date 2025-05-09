@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">កិច្ចការផ្ទះ_ប្រូហ្វ្រាល់</string>
+    <string name="my_activities">សកម្មភាពរបស់ខ្ញុំ</string>
+    <string name="cover_img">រូបខូវឺ</string>
+    <stirng name="profile_img">ប្រូហ្រ្វាល់</stirng>
+    <string name="ic_edit">អាយខុនកែប្រែ</string>
+    <string name="myName">សុបុត្រទី</string>
+    <string name="ITE">ITE - ជំនាន់ទី៩</string>
+    <string name="ITE_1">ឆ្នាំ 1</string>
+    <string name="ITE_2">ឆ្នាំ 2</string>
+    <string name="ITE_3">ឆ្នាំ 3</string>
+    <string name="ITE_4">ឆ្នាំ 4</string>
+    <string name="thumbnail">រូបភាព</string>
+    <string name="first_title">បើកបវេសនកាល</string>
+    <string name="first_des">០២ ធ្នូ ២០២៥</string>
+    <string name="second_title">ចូលឆ្នាំខ្មែរ</string>
+    <string name="second_des">១៤ មេសា ២០២៥</string>
+    <string name="footer">ITE អេប, v.1.0.11</string>
+</resources>
