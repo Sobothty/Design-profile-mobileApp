@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/bgColor"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -38,7 +39,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#803368ff" />
+                    android:background="@color/appBar" />
 
                 <LinearLayout
                     android:id="@+id/appbar"
@@ -90,7 +91,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/radius_background_image"
-                    android:clipToOutline="true"
                     android:contentDescription="@string/cover_img"
                     android:outlineProvider="background"
                     android:src="@drawable/user_profile" />
@@ -196,15 +196,14 @@
             android:orientation="horizontal"
             android:paddingHorizontal="20dp">
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/Thumbnail_1"
                 android:layout_width="120dp"
                 android:layout_height="70dp"
-                android:background="@drawable/border_radius_without_color"
-                android:clipToOutline="true"
                 android:contentDescription="@string/thumbnail"
                 android:scaleType="centerCrop"
-                android:src="@drawable/first_thumbnail" />
+                android:src="@drawable/first_thumbnail"
+                app:shapeAppearanceOverlay="@style/RoundedImageViewStyle"/>
 
             <View
                 android:layout_width="15dp"
@@ -233,6 +232,8 @@
             </LinearLayout>
 
             <ImageView
+                android:id="@+id/more_ic"
+                android:contentDescription="@string/ic_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
@@ -249,15 +250,14 @@
             android:orientation="horizontal"
             android:paddingHorizontal="20dp">
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/Thumbnail_2"
                 android:layout_width="120dp"
                 android:layout_height="70dp"
-                android:background="@drawable/border_radius_without_color"
-                android:clipToOutline="true"
                 android:contentDescription="@string/thumbnail"
                 android:scaleType="centerCrop"
-                android:src="@drawable/kny" />
+                android:src="@drawable/kny"
+                app:shapeAppearanceOverlay="@style/RoundedImageViewStyle"/>
 
             <View
                 android:layout_width="15dp"

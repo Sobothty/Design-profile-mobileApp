@@ -3,7 +3,7 @@
     <string name="app_name">Homework_profile</string>
     <string name="my_activities">My Activities</string>
     <string name="cover_img">Cover Image</string>
-    <stirng name="profile_img">Profile</stirng>
+    <string name="profile_img">Profile</string>
     <string name="ic_edit">Edit icon</string>
     <string name="myName">Sobothty</string>
     <string name="ITE">ITE - G9</string>
@@ -17,4 +17,15 @@
     <string name="second_title">Khmer New Year</string>
     <string name="second_des">14 April 2025</string>
     <string name="footer">ITE APP, v.1.0.11</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="fullName">Name</string>
+    <string name="close_btn">Close</string>
+    <string name="save_btn">Save</string>
+
+    <style name="RoundedImageViewStyle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
 </resources>
+
+
