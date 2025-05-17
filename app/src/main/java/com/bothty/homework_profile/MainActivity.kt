@@ -15,9 +15,16 @@ class MainActivity : AppCompatActivity() {
         ActivityResultContracts.StartActivityForResult()
     ) {
 
+        if(it.resultCode != RESULT_OK){
+            return@registerForActivityResult
+        }
+        val newFirstName = it.data?.getStringExtra(FIRST_NAME)
         val newUserName = it.data?.getStringExtra(USER_NAME)
+        val newGeneration = it.data?.getStringExtra(GENERATION)
 
+        binding.firstName.text = "$newFirstName"
         binding.profileName.text = "$newUserName"
+        binding.Generation.text = "$newGeneration"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,15 +40,21 @@ class MainActivity : AppCompatActivity() {
     private fun goToEditProfile() {
         val intent = Intent(this, EditProfileActivity::class.java)
 
+        val firstName = binding.firstName.text.toString()
         val userName = binding.profileName.text.toString()
+        val generation = binding.Generation.text.toString()
 
+        intent.putExtra(FIRST_NAME, firstName)
         intent.putExtra(USER_NAME, userName)
+        intent.putExtra(GENERATION, generation)
 
         activityLauncher.launch(intent)
     }
 
     companion object{
+        const val FIRST_NAME = "firstName"
         const val USER_NAME = "userName"
+        const val GENERATION = "generation"
     }
 
 }

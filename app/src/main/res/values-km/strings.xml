@@ -5,8 +5,11 @@
     <string name="cover_img">រូបខូវឺ</string>
     <string name="profile_img">ប្រូហ្រ្វាល់</string>
     <string name="ic_edit">អាយខុនកែប្រែ</string>
+    <string name="myFirstName">គ្រី</string>
     <string name="myName">សុបុត្រទី</string>
-    <string name="ITE">ITE - ជំនាន់ទី៩</string>
+    <string name="ITE">ITE</string>
+    <string name="G9">ជំនាន់៩</string>
+    <string name="Generation">ជំនាន់</string>
     <string name="ITE_1">ឆ្នាំ 1</string>
     <string name="ITE_2">ឆ្នាំ 2</string>
     <string name="ITE_3">ឆ្នាំ 3</string>
@@ -17,8 +20,9 @@
     <string name="second_title">ចូលឆ្នាំខ្មែរ</string>
     <string name="second_des">១៤ មេសា ២០២៥</string>
     <string name="footer">ITE អេប, v.1.0.11</string>
-    <string name="edit_profile">កែប្រែប្រូហ្វ្រាល់</string>"
-    <string name="fullName">ឈ្មោះ</string>
+    <string name="edit_profile">កែប្រែប្រូហ្វ្រាល់</string>
+    <string name="firstName">ឈ្មោះខាងមុខ</string>
+    <string name="fullName">ឈ្មោះចុងក្រោយ</string>
     <string name="close_btn">បិទ</string>
     <string name="save_btn">រក្សាទុក</string>
 </resources>

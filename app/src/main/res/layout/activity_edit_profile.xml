@@ -21,16 +21,46 @@
         android:layout_width="0dp"
         android:layout_height="20dp"/>
     <TextView
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/firstName"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/editFirstname"
+        android:inputType="text"
+        android:labelFor="@+id/UserName"
+        android:hint="@string/firstName"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
         android:id="@+id/UserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/fullName"
         android:textSize="24sp"/>
     <EditText
-        android:id="@+id/edit_username"
+        android:id="@+id/editUsername"
         android:inputType="text"
         android:labelFor="@+id/UserName"
         android:hint="@string/fullName"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/Generation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Generation"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/edit_generation"
+        android:inputType="text"
+        android:labelFor="@+id/Generation"
+        android:hint="@string/G9"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:layout_width="match_parent"

@@ -5,8 +5,11 @@
     <string name="cover_img">Cover Image</string>
     <string name="profile_img">Profile</string>
     <string name="ic_edit">Edit icon</string>
+    <string name="myFirstName">Kry</string>
     <string name="myName">Sobothty</string>
-    <string name="ITE">ITE - G9</string>
+    <string name="ITE">ITE</string>
+    <string name="G9">G9</string>
+    <string name="Generation">Generation</string>
     <string name="ITE_1">Year 1</string>
     <string name="ITE_2">Year 2</string>
     <string name="ITE_3">Year 3</string>
@@ -18,7 +21,8 @@
     <string name="second_des">14 April 2025</string>
     <string name="footer">ITE APP, v.1.0.11</string>
     <string name="edit_profile">Edit Profile</string>
-    <string name="fullName">Name</string>
+    <string name="firstName">First Name</string>
+    <string name="fullName">Last Name</string>
     <string name="close_btn">Close</string>
     <string name="save_btn">Save</string>
 

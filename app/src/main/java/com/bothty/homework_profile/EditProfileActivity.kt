@@ -17,10 +17,14 @@ class EditProfileActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         //Get fullName from profile
-        val userName = intent.getStringExtra("userName")
+        val firstName = intent.getStringExtra(MainActivity.FIRST_NAME)
+        val userName = intent.getStringExtra(MainActivity.USER_NAME)
+        val generation = intent.getStringExtra(MainActivity.GENERATION)
 
         //Set fullName to EditText
+        binding.editFirstname.setText(firstName)
         binding.editUsername.setText(userName)
+        binding.editGeneration.setText(generation)
 
         //Close activity
         binding.closeBtn.setOnClickListener{
@@ -33,10 +37,14 @@ class EditProfileActivity : AppCompatActivity() {
         }
     }
     private fun editProfile(){
+        val newFirstName = binding.editFirstname.text.toString()
         val newUserName = binding.editUsername.text.toString()
+        val newGeneration = binding.editGeneration.text.toString()
 
         val dataIntent = Intent()
+        dataIntent.putExtra(MainActivity.FIRST_NAME, newFirstName)
         dataIntent.putExtra(MainActivity.USER_NAME, newUserName)
+        dataIntent.putExtra(MainActivity.GENERATION, newGeneration)
         setResult(RESULT_OK, dataIntent)
         finish()
     }
